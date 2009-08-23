@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml" creationComplete="init()" xmlns:view="simpleDraw.view.*">
+	<mx:Panel title="draw canvas" x="40" y="40" width="512" height="384">
+		<mx:Canvas id="canvas" x="0" y="0" width="100%" height="100%">
+		</mx:Canvas>
+	</mx:Panel>
+	<view:controlPanelView />
+	<mx:Script source="../controller/simpleDrawController.as" />
+</mx:Canvas>
+
